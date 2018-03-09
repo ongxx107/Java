@@ -1,7 +1,3 @@
-/*
-Chaitanya Bandi 5141792
-Ren Jeik Ong 5343975
- */
 
 package planetwars.strategies;
 
