@@ -1,5 +1,3 @@
-// Ren Jeik Ong (University ID - 5343975)
-// Krishna Chaitanya Bandi (University ID - 5141792)
 
 import java.util.ArrayList;
 import java.util.List;
