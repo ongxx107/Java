@@ -1,4 +1,5 @@
-
+//Ren Jeik Ong 5343975
+//William Janklow 5337204
 
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -17,13 +18,17 @@ public class Canvas extends JApplet {
 		//Triangle tri1 = new Triangle(400,400,50,100);
 		//tri1.setColor(col);
 		//canvas.drawShape(tri1);
-    Circle myCircle = new Circle(0,0,100);
-    myCircle.setColor(Color.BLUE);
-    drawing.drawShape(myCircle);
+    	Circle myCircle = new Circle(0,0,100);
+    	myCircle.setColor(Color.BLUE);
+    	drawing.drawShape(myCircle);
 
-		Triangle myTriangle = new Triangle(0,0,100,200);
-    myTriangle.setColor(Color.BLUE);
-    drawing.drawShape(myTriangle);
+		Triangle myTriangle = new Triangle(400,400,100,200);
+    	myTriangle.setColor(Color.BLUE);
+    	drawing.drawShape(myTriangle);
+
+		Rectangle myRectangle = new Rectangle(400,400,500,400);
+		myRectangle.setColor(Color.BLUE);
+		drawing.drawShape(myRectangle);
 
 	}
 

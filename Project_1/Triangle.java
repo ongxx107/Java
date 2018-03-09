@@ -1,18 +1,21 @@
+//Ren Jeik Ong 5343975
+//William Janklow 5337204
+
 import java.awt.*;
 public class Triangle {
 
     private double xCoord;
     private double yCoord;
     private double width;
-		private double height;
+    private double height;
     private Color c;
 
     public Triangle(){}
     public Triangle(double x, double y, double w, double h){
         xCoord = x;
         yCoord = y;
-    		width = w;
-				height = h;
+        width = w;
+        height = h;
     }
     public double calculatePerimeter(){
 				double side = Math.sqrt(Math.pow((width/2),2)+ Math.pow(height, 2));
@@ -31,7 +34,7 @@ public class Triangle {
     public void setHeight( double h){
         height =h;
     }
-		public void setWidth( double w){
+    public void setWidth( double w){
         width =w;
     }
     public Color getColor(){

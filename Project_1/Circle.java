@@ -1,3 +1,6 @@
+//Ren Jeik Ong 5343975
+//William Janklow 5337204
+
 import java.awt.*;
 
 public class Circle {
